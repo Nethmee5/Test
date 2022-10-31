@@ -1,0 +1,49 @@
+.navbar-section {
+  .app-bar {
+    background-color: #fff;
+    border: 2px;
+    border-style: outset;
+  }
+
+  .logo {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .book-button {
+    // @media (max-width: 375px) {
+    //   top: 0px;
+    // }
+    // @media (min-width: 375px) {
+    //   visibility: hidden;
+    //   display: none;
+    // }
+    // @media (min-width: 375px) {
+    //   visibility: hidden;
+    //   display: none;
+    // }
+    border-radius: 25px;
+    border: 2px solid #003cac;
+    color: #003cac;
+    background-color: #fff;
+    text-align: center;
+    width: 192.328px;
+    margin-right: 50px;
+  }
+  .icon-buttons {
+    .search-icon {
+      color: #000;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .user-icon {
+      color: #000;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .cart-icon {
+      color: #000;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+
+
+.Frame-section {
+  margin-top: 100px;
+  border: 2px black solid;
+  margin-left: 35px;
+  margin-right: 35px;
+
+  margin-bottom: 50px;
+  border-radius: 25px;
+  h3 {
+    text-align: center;
+  }
+
+  .content {
+    @media (min-width: 375px) {
+      padding-top: 50px;
+    
+    }
+  
+    text-align: center;
+   
+    width: 100%;
+    max-width: 450px;
+
+  
+
+  }
+  .table-section {
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10px;
+
+    .box {
+      border: 1px black solid;
+      @media (max-width: 375px) {
+        width: 500px;
+      }
+      @media (min-width: 1440px) {
+        width: 250px;
+      }
+    
+    }
+    .left,
+    .right {
+      border-right: 1px black solid;
+    }
+
+  }
+
+
+    .text-section {
+      width: 100%;
+      text-align: center;
+      padding-top: 50px;
+    }
+  
+}
